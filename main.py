@@ -18,7 +18,7 @@ gross income greater than or equal to 10000 - tax = 20%
 """
 
 
-gross_income = int(input("Enter your gross income: "))
+gross_income = int(input("Enter your gross income"))
 
 if gross_income < 1000:
     tax = gross_income * 0.05
@@ -28,3 +28,5 @@ elif gross_income >= 5000 and gross_income < 10000:
     tax = gross_income * 0.15
 else:
     tax = gross_income * 0.20 
+
+net_income = gross_income - tax

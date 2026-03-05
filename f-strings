@@ -1,0 +1,5 @@
+#formatted stings 
+f_temp = 67
+
+#"the temperature of the car is 67 and it is overheating"
+print(f"the temperature of the car is {f_temp} and it is overheating"  )
